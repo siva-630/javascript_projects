@@ -1,0 +1,27 @@
+*{
+    
+    background-color: goldenrod;
+  
+}
+ 
+body{
+    text-align: center;
+    
+    margin-top:50px
+
+}
+
+
+
+button{
+    width: 80px;
+    height:50px;
+    margin: 10px;
+    background-color: green;
+    font-size:30px;
+    border-radius:10px;
+    align-items: center;;
+    
+    
+    
+}
