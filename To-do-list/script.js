@@ -34,4 +34,4 @@ addon.addEventListener("click", () => {
 
     input.value = " ";
 
-});
+})
