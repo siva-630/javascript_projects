@@ -26,15 +26,12 @@ addon.addEventListener("click", () => {
 
     delet.addEventListener("click", function () {
         tasklist.removeChild(li);
-    })
+    });
 
     li.appendChild(delet);
 
     tasklist.appendChild(li);
 
     input.value = " ";
-
-
-
 
 })
