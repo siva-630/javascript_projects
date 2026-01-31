@@ -1,1 +1,1 @@
-(./Screenshot 2026-01-31 192202)
+![Screenshot](Screenshot%202026-01-31%20192202.png)
