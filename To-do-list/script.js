@@ -12,7 +12,7 @@ addon.addEventListener("click", () => {
 
 
 
-    if (tasklist === ""){
+    if (tasklist === "") {
         alert("enter a task");
         return;
 
@@ -34,4 +34,4 @@ addon.addEventListener("click", () => {
 
     input.value = " ";
 
-})
+});
