@@ -8,30 +8,26 @@ const tasklist = document.getElementById("list");
 
 
 addon.addEventListener("click", () => {
-    tasklist = input.value;
+    const taskText = input.value.trim();
 
-
-
-    if (tasklist === "") {
-        alert("enter a task");
+    if (taskText === "") {
+        alert("Enter a task");
         return;
-
     }
+
     const li = document.createElement("li");
-    li.textContent = tasklist;
+    li.textContent = taskText;
 
     const delet = document.createElement("button");
     delet.textContent = "❌";
 
-
     delet.addEventListener("click", function () {
-        tasklist.removeChild(li);
+        li.remove();
     });
 
     li.appendChild(delet);
 
     tasklist.appendChild(li);
 
-    input.value = " ";
-
-})
+    input.value = "";
+});
