@@ -3,9 +3,27 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Temperature</title> 
+    <title>Temperature-converter</title> 
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
+
+    <h1>Temperature Converter</h1>
+
+
+    <input  type="number" id="temInput" placeholder="Enter value"/>
+
+    <select id="unit">
+        <option value="c">Celsius</option>
+        <option value="f">Fahrenheit</option>
+        <option value="k">Kelvin</option>
+    </select>
+
+    <button id="convert">Convert</button>
+
+    <p id="result">Result will appear here</p>
+
+    <scrip scr="result"></scrip>
     
 </body>
 </html>
